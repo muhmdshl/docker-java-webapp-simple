@@ -5,7 +5,7 @@ services:
     build: .
   
   lb:
-    image: nginx:1.7.9
+    image: nginx:latest
     # Mount my custom NGINX configuration in READ-ONLY MODE
     volumes: 
     # Read the configuration and attach it to container
